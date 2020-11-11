@@ -1,0 +1,95 @@
+body{
+	background-color: #F3F7E2;
+}
+header{
+	display: flex;
+	margin-left: 7%;
+}
+
+.accounting{
+	color:lightgreen;
+}
+
+.telefon{
+	color: grey;
+	margin-left: 5%;
+	padding-top: 1%;
+}
+
+.idiomes{
+	color: grey;
+	margin-left: 58%;
+	padding-top: 1%;
+}
+
+img{
+	width: 70%;
+	margin-left: 11%;
+}
+
+ul {
+	list-style-type: none;
+	width: 90%;
+	display:flex;
+	}
+li{
+	margin-left: 15%;
+	font-size: 120%; 
+}
+
+a{
+	list-style-type: none;
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: green;
+}
+
+
+article{
+	display: flex;
+	text-align: center;
+}
+
+section{
+	width: 12%;
+	margin: 3%;
+	margin-left: 7%;
+}
+
+.GoTo{
+	border: solid lightgreen;
+	background-color: lightgreen;
+	color: white;
+	font-size: 130%;
+}
+
+.fotopequeña{
+	width: 3%;
+	height: 3%;
+	margin-left: 2%;
+}
+
+.fotopequeña2{
+	width: 4%;
+	height: 4%;
+	margin-left: 68%;
+}
+
+.fotopequeña:hover{
+	transform: rotateY(3600deg) scale(1.5,1.5);
+transition-duration: 1s;
+}
+
+.fotopequeña2:hover{
+	transform: rotateX(3600deg) scale(1.5,1.5);
+transition-duration: 1s;
+}
+
+footer{
+	margin: 5%;
+	display: flex;
+	width: 90%;
+}
